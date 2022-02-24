@@ -40,7 +40,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <h4><b>Coding</b></h4>
       <div class="w3-content w3-justify" style="max-width:640px">
         <h4>What I did</h4>
-        <p></p>
+        <p>I needed to code the motor to spin using the potentiometer to adjust its speed. I found the reference to the code I needed <a href="https://forum.arduino.cc/t/dc-motor-speed-control-with-potentiometer/448322/2">here</a>. I then changed the pin numbers to what the pin corresponds to. Initially, I was confused as the potentiometer was not working. But later I realised that digital pins cannot process the potentiometer input and I had to use an analog pin. The analog pin for this can be found in the Attiny85 datasheet and for this project, it was A2. After changing that, the code works perfectly.</p>
         <p><iframe src=https://create.arduino.cc/editor/imposter_jr/833c2ab8-b343-4836-ac53-61ba4501364c/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe></p>
         <hr class="w3-opacity">
       </div>
